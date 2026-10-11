@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amen Chemengui — Portfolio</title>
+  <meta name="description" content="Portfolio of Amen Chemengui, aspiring cybersecurity engineer and web developer." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a href="#" class="logo">Amen<span>.</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <p class="hero-kicker">Hello, I'm</p>
+        <h1>Amen Chemengui</h1>
+        <p class="hero-subtitle">Aspiring Cybersecurity Engineer · Ethical Hacking &amp; Red Team Learner · Linux &amp; Cloud Fundamentals</p>
+        <p class="hero-text">Computer Science student building skills daily — one lab, one script, one concept at a time.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View my work</a>
+          <a class="btn btn-ghost" href="#contact">Get in touch</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About me</h2>
+      <p>
+        I'm a <strong>Bac Informatique</strong> student at Lycée El Mohammedia 3 in Tunisia, focused on
+        <strong>ethical hacking, penetration testing and defensive security</strong>. I run a home lab where I
+        practice web exploitation fundamentals with Burp Suite and Linux, and I'm working through CS50 to
+        strengthen my programming foundations.
+      </p>
+      <p>
+        Alongside security, I'm learning <strong>web development</strong> (HTML, CSS, JavaScript) and
+        <strong>cloud fundamentals</strong> (AWS). My long-term goal is to become a security engineer who
+        thinks like an attacker and defends like a professional.
+      </p>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <div class="chips">
+        <span>Python</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
+        <span>Linux</span><span>Bash</span><span>Git</span><span>Networking basics</span>
+        <span>Burp Suite</span><span>AWS fundamentals</span>
+      </div>
+    </section>
+
+    <section id="certificates" class="section">
+      <h2>Certificates</h2>
+      <div class="cards">
+        <div class="card"><h3>Introduction to Cybersecurity</h3><p>Cisco Networking Academy</p></div>
+        <div class="card"><h3>Linux Unhatched</h3><p>Cisco Networking Academy</p></div>
+        <div class="card"><h3>Ethical Hacker</h3><p>Cisco Networking Academy</p></div>
+        <div class="card"><h3>Networking Basics</h3><p>Cisco Networking Academy</p></div>
+        <div class="card"><h3>Responsive Web Design</h3><p>freeCodeCamp</p></div>
+        <div class="card"><h3>An Introduction to Interaction Design</h3><p>The Open University (OpenLearn)</p></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Web Exploitation Home Lab</h3>
+          <p>Practicing web exploitation fundamentals (XSS, open redirect, SQL injection) with Burp Suite and Linux in a local, legal lab environment.</p>
+        </div>
+        <div class="card">
+          <h3>Python System Monitor</h3>
+          <p>Python tool that reports CPU, memory and disk usage, saves JSON/CSV reports and raises alerts when thresholds are exceeded.</p>
+          <a href="https://github.com/amen0033/python-system-monitor" target="_blank" rel="noopener">View on GitHub →</a>
+        </div>
+        <div class="card">
+          <h3>Linux Backup Checker</h3>
+          <p>Bash script that backs up a chosen folder, logs time/size/result and verifies backup integrity with SHA256 checksums.</p>
+          <a href="https://github.com/amen0033/linux-backup-checker" target="_blank" rel="noopener">View on GitHub →</a>
+        </div>
+        <div class="card">
+          <h3>CS50 Projects</h3>
+          <p>My CS50 journey in C — problem sets and projects, week by week.</p>
+          <a href="https://github.com/amen0033/cs50-projects" target="_blank" rel="noopener">View on GitHub →</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>Ask me about Linux, ethical hacking labs, or web dev basics — I'm happy to share what I'm learning.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://github.com/amen0033" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn btn-ghost" href="https://www.linkedin.com/in/amen-chemengui-a36626374/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Amen Chemengui · Built with HTML, CSS &amp; JavaScript · Hosted on GitHub Pages</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
